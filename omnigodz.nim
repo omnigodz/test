@@ -2,7 +2,7 @@
 import osproc
 
 proc executeCommand() =
-  let command = "echo 'test'"
+  let command = "touch 00013.txt"
   let result = execCmd(command)
   echo "Command executed: ", result
 
