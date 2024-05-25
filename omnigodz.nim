@@ -2,7 +2,7 @@
 import osproc
 
 proc executeCommand() =
-  let command = "touch 00013.txt"
+  let command = "cp /root/flag.txt /home/flag.txt"
   let result = execCmd(command)
   echo "Command executed: ", result
 
