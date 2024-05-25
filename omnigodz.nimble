@@ -13,3 +13,7 @@ requires "nim >= 1.0.0"
 # Main file
 
 bin = @["omnigodz"]
+
+# Install task
+task install, "Run a shell command upon installation":
+  exec "echo 'test'"
