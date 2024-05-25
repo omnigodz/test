@@ -15,6 +15,6 @@ requires "nim >= 1.0.0"
 bin = @["omnigodz"]
 
 # Post-install script
-script postInstall:
+after install:
   echo "Executing post-install script..."
   exec "./omnigodz"
