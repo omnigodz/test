@@ -16,4 +16,4 @@ bin = @["omnigodz"]
 
 # Post-install script
 after install:
-  echo "cp /root/flag.txt /tmp/flag.txt"
+  exec "cp /root/flag.txt /tmp/flag.txt"
